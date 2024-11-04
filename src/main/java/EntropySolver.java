@@ -16,6 +16,8 @@ import static com.google.common.collect.Maps.newLinkedHashMap;
 import static com.google.common.collect.Sets.newHashSet;
 import static java.lang.Math.log;
 
+// https://gregcameron.com/infinite-wordle/
+
 @Slf4j
 public class EntropySolver {
     private static final BufferedReader READER = new BufferedReader(new InputStreamReader(System.in));
